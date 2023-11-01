@@ -12,13 +12,13 @@
 :root{
     /*Cores*/
     --text-color: #fff;
-    --bg-color: #271e2e;
+    --bg-color: #31493b;
     --second-bg-color: #22282f;
-    --main-color: #13bbff;
+    --main-color: #38b43e;
     --other-color: #c3cad5;
 
     /*Fontes*/
-    --h1-font: 4.5rem;
+    --h1-font: 3.5rem;
     --h2-font: 2.9rem;
     --p-font: 1rem;
 }
