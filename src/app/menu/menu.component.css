@@ -24,6 +24,8 @@ span{
 
 .navlist{
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .navlist a{
@@ -31,6 +33,7 @@ span{
     font-weight: 500;
     color: var(--other-color);
     margin-left: 40px;
+    padding-right: 60px;
     transition: all .50s ease;
 }
 

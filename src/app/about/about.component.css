@@ -1,0 +1,25 @@
+.img-perfil img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+
+
+.about{
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.about h1{
+    margin-top: 4rem;
+}
+
+.skills {
+    margin-top: 2rem;
+}
