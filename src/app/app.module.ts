@@ -12,6 +12,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
 import { ProjetosComponent } from './projetos/projetos.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProjetosComponent } from './projetos/projetos.component';
     MenuComponent,
     PrincipalComponent,
     AboutComponent,
-    ProjetosComponent
+    ProjetosComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
