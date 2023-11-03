@@ -8,9 +8,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { PrincipalComponent } from './principal/principal.component';
-import { FooterComponent } from './footer/footer.component';
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
+import { ProjetosComponent } from './projetos/projetos.component';
 
 
 @NgModule({
@@ -18,8 +19,8 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     MenuComponent,
     PrincipalComponent,
-    FooterComponent,
-    AboutComponent
+    AboutComponent,
+    ProjetosComponent
   ],
   imports: [
     BrowserModule,
