@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { MenuService } from './services/menu.service';
 
 
 @Component({
@@ -9,5 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PortfolioAngular';
-  showMenu: boolean = true;
+
+  constructor(public menuService: MenuService) {}
+
+  toggleMenu() {
+    this.menuService.showMenu = !this.menuService.showMenu;
+  }
 }
