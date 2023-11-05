@@ -16,5 +16,13 @@ export class MenuComponent implements OnInit {
         this.header?.classList.toggle("sticky", window.scrollY > 120);
       });
     }
+
+    let menu = document.querySelector('.menu-icon');
+    let navlist = document.querySelector('.navlist');
+
+    menu?.addEventListener('click', () => {
+      menu?.classList.toggle('svg');
+      navlist?.classList.toggle('active');
+    });
   }
 }

@@ -81,3 +81,54 @@ section{
     color: var(--main-color);
     box-shadow: 0 0 20px var(--main-color);
 }
+
+
+@media (max-width: 1700px){
+    section{
+        padding: 90px 8% 80px;
+    }
+}
+
+
+@media (max-width: 935px) {
+    .container {
+        background: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        background: none;
+    }
+   
+    .content h4 {
+        font-size: 40px;
+    }
+    
+    .content h1 {
+        font-size: 36px;
+    }
+    
+    .content p {
+        font-size: 16px;
+    }
+    
+    .redes-sociais {
+        margin-bottom: 20px;
+    }
+    
+    .redes-sociais svg {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    
+    .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+
+

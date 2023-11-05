@@ -23,3 +23,46 @@
 .skills {
     margin-top: 2rem;
 }
+
+
+/* Estilo para telas menores que 768px */
+@media (max-width: 768px) {
+    .img-perfil img {
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+    }
+
+    .about {
+        font-size: 1rem;
+    }
+
+    .about h1 {
+        margin-top: 2rem;
+    }
+
+    .skills {
+        margin-top: 1rem;
+    }
+}
+
+/* Estilo para telas menores que 480px */
+@media (max-width: 480px) {
+    .img-perfil img {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .about {
+        font-size: 0.9rem;
+    }
+
+    .about h1 {
+        margin-top: 1rem;
+    }
+
+    .skills {
+        margin-top: 0.5rem;
+    }
+}
