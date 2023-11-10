@@ -8,7 +8,7 @@ import { Component, OnInit} from '@angular/core';
 export class ProjetosComponent implements OnInit{
   currentIndex = 0;
   images: string[] = [
-    'assets/img/java.png',
+    'assets/img/slide1.jpeg',
     'assets/img/css.png',
     'assets/img/html.png'
   ];
