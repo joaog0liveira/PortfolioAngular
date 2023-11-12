@@ -8,9 +8,18 @@ import { Component, OnInit} from '@angular/core';
 export class ProjetosComponent implements OnInit{
   currentIndex = 0;
   images: string[] = [
-    'assets/img/java.png',
-    'assets/img/css.png',
-    'assets/img/html.png'
+    'assets/img/todolist.png',
+    'assets/img/livraria.png',
+    'assets/img/landing.png',
+    'assets/img/rota.png'
+  ];
+
+   // Adicione os links correspondentes às imagens
+   imageLinks: string[] = [
+    'https://link-do-todolist',
+    'https://link-da-livraria',
+    'https://link-da-landing',
+    'https://link-da-rota'
   ];
 
   constructor() {}
