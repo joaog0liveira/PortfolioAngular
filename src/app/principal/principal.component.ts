@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { MenuService } from '../services/menu.service';
 
 @Component({
   selector: 'app-principal',
@@ -7,5 +7,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./principal.component.css']
 })
 export class PrincipalComponent {
-  faCoffee = faCoffee;
+  constructor(private menuService: MenuService) {
+    this.menuService.showMenu = true; // Defina showMenu como false para ocultar o menu neste componente.
+  }
 }

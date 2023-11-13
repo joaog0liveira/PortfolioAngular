@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  
 }
 
 .slider img {
@@ -23,7 +23,7 @@
 /* Estilos para os botões de navegação */
 .slider button {
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translateY(-50%);
   background: transparent;
   color: #fff;

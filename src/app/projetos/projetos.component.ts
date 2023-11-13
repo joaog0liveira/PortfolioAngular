@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import { MenuService } from '../services/menu.service';
 
 @Component({
   selector: 'app-projetos',
@@ -16,13 +17,15 @@ export class ProjetosComponent implements OnInit{
 
    // Adicione os links correspondentes às imagens
    imageLinks: string[] = [
-    'https://link-do-todolist',
-    'https://link-da-livraria',
-    'https://link-da-landing',
-    'https://link-da-rota'
+    'https://github.com/joaog0liveira/to-do-list-java-spring',
+    'https://github.com/joaog0liveira/livraria-virtual',
+    'https://github.com/joaog0liveira/landing-page',
+    'https://github.com/joaog0liveira/Trabalho3ED2'
   ];
 
-  constructor() {}
+  constructor(private menuService: MenuService) {
+    this.menuService.showMenu = true; // Defina showMenu como false para ocultar o menu neste componente.
+  }
 
   ngOnInit(): void {
   }

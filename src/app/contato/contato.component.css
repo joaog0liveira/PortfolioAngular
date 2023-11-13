@@ -158,6 +158,23 @@ textarea.input{
 
 }
 
+.btn-voltar{
+    position: relative;
+    top: 100px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    color: var(--bg-color);
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
 @media(max-width:850px){
     .item{
         grid-template-columns: 1fr;

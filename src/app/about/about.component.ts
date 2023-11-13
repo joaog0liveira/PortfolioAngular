@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuService } from '../services/menu.service';
 
 @Component({
   selector: 'app-about',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-
+  constructor(private menuService: MenuService) {
+    this.menuService.showMenu = true; // Defina showMenu como false para ocultar o menu neste componente.
+  }
 }
