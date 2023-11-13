@@ -191,6 +191,11 @@ textarea.input{
         height: 40px;
         font-size: 12px;
     }
+    .btn-voltar{
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+    }
 }
 
 @media(max-width:480px){
@@ -205,6 +210,11 @@ textarea.input{
         text-align: center;
     }
     .btn-submit{
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+    }
+    .btn-voltar{
         width: 20%;
         height: 40px;
         font-size: 12px;
