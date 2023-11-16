@@ -13,6 +13,6 @@ export class AppComponent {
   constructor(public menuService: MenuService) {}
 
   toggleMenu() {
-    this.menuService.showMenu = !this.menuService.showMenu;
+    this.menuService.showMenu = !this.menuService.showMenu; //inverte o estado de exibição do menu
   }
 }

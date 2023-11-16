@@ -15,7 +15,6 @@ export class ProjetosComponent implements OnInit{
     'assets/img/rota.png'
   ];
 
-   // Adicione os links correspondentes às imagens
    imageLinks: string[] = [
     'https://github.com/joaog0liveira/to-do-list-java-spring',
     'https://github.com/joaog0liveira/livraria-virtual',
@@ -24,7 +23,7 @@ export class ProjetosComponent implements OnInit{
   ];
 
   constructor(private menuService: MenuService) {
-    this.menuService.showMenu = true; // Defina showMenu como false para ocultar o menu neste componente.
+    this.menuService.showMenu = true; 
   }
 
   ngOnInit(): void {

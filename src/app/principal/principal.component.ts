@@ -8,6 +8,6 @@ import { MenuService } from '../services/menu.service';
 })
 export class PrincipalComponent {
   constructor(private menuService: MenuService) {
-    this.menuService.showMenu = true; // Defina showMenu como false para ocultar o menu neste componente.
+    this.menuService.showMenu = true;
   }
 }
