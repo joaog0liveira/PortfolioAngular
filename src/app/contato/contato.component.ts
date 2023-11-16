@@ -8,6 +8,7 @@ import { MenuService } from '../services/menu.service';
 })
 export class ContatoComponent {
   constructor(private menuService: MenuService) {
-    this.menuService.showMenu = false; // Defina showMenu como false para ocultar o menu neste componente.
+    this.menuService.showMenu = false; // definindo showMenu como false para ocultar
+    // o menu neste componente.
   }
 }
