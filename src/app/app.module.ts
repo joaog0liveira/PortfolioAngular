@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { PrincipalComponent } from './principal/principal.component';
 
@@ -14,7 +14,6 @@ import { AboutComponent } from './about/about.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 import { ContatoComponent } from './contato/contato.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +21,7 @@ import { ContatoComponent } from './contato/contato.component';
     PrincipalComponent,
     AboutComponent,
     ProjetosComponent,
-    ContatoComponent
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,9 +29,9 @@ import { ContatoComponent } from './contato/contato.component';
     MatToolbarModule,
     BrowserAnimationsModule,
     MatIconModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
